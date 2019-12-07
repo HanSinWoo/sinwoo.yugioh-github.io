@@ -4,22 +4,53 @@
     <title>즈아크,자크</title>
     <meta charset = "utf-8">
     <style>
+      body{
+        margin:0;
+      }
       a{
         text-decoration:none;
       }
       h1{
         font-size:50px;
         text-align: center;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding:19px;
+      }
+      ul{
+        border-right:1px solid gray;
+        width:180px;
+        margin:0;
+        padding:19px;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns:150px 1fr;
+      }
+      #grid ul{
+        padding-left:33px;
+      }
+      #art{
+        padding-left:100px;
+      }
+      @media(max-width:800px){
+        #grid{
+          display: block;
+        }
+        ul{
+          border-right: none;
       }
     </style>
   </head>
   <body>
     <h1><a href="index.html">신우의 유희왕</a></h1>
+    <div id="grid">
     <ul>
       <li><a href="1.html" style="color:purple;text-decoration:underline">즈아크의 효과</a></li>
       <li><a href="2.html">즈아크를 도와주는 카드</a></li>
       <li><a href="3.html">즈아크가 나오는 콤보</a></li>
     </ul>
+    <div id="art">
     <h2><strong><u>즈아크의 효과</u></strong></h2>
     <img width="25%" src="https://ww.namu.la/s/11ca308d93bd36f40c70e4441e90248cb751126f3c96c0a3647ee7980402543a7d974f88712ae4f5bcdb27098c280dcb4cc3f949f2760872eddfa97a817d4badb020726169bce1cd37d419af84b833d0faec92710a7d28af084b2b590b41fe483dcc2d75f75296837745e724e1d8e931">
     <br>드래곤족 / 융합 / 펜듈럼 / 효과<br/><br/>
@@ -32,5 +63,8 @@
     4.몬스터 존에 이카드가 전투 효과로 파괴되었을때 발동할 수 있다.
     이카드를 자신의 펜듈럼 존에 놓는다.<br/>
              공4000 방4000
+             </div>
+             </div>
+
   </body>
 </html>
